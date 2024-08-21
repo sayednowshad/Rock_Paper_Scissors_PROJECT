@@ -1,0 +1,63 @@
+body{
+
+
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+h1{
+
+    font-size: 2.9rcap;
+
+}
+
+/* id for 'choices' */
+
+#choices { 
+
+    margin-bottom: 20px;
+}
+
+#choices button{
+
+    border : none;
+    font-size: 3rem;
+    box-shadow: black 10px 10px 10px 1px;
+    border-radius: 50%;
+    background-color: yellow;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#choices button:hover {
+
+    background-color: rgb(218, 218, 29);
+}
+
+#PlayerDisplay, #ComputerDisplay{
+
+    font-size: 30px;
+}
+
+#ResultDisplay {
+
+    font-size: 46px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top : 26px;
+    text-decoration: underline;
+}
+.redText , #playerdisplayScore{
+
+    color : red;
+
+}
+.greenText, #computerscoreDisplay{
+
+    color : green;
+
+}
+
